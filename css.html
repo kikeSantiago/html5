@@ -1,0 +1,31 @@
+
+<!DOCTYPE HTML>
+<html class="no-js">
+    <head>
+        <script src="js/modernizr.js" type="text/javascript"></script>
+        <style>
+            header{
+                color:#ff0000;
+                font-size:40px;
+            }
+            div.geolocation-available, div.no-geolocation{
+                display: none
+            }
+            .no-geolocation div.no-geolocation {
+                display: block
+            }
+            .geolocation div.geolocation-available{
+                display: block
+            }
+        </style>
+    </head>
+    <body>
+        <header>Hola HTML5!</header>
+        <div class="geolocation-available">
+        	Felicidades! Tu navegador no esta tan chafa, soporta Geolocalizacion!
+        </div>
+        <div class="no-geolocation">
+            Tu calculadora no soporta Geolocalizacion :(
+        </div>
+    </body>
+</html>
