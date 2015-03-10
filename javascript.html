@@ -1,0 +1,23 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="js/modernizr.js" type="text/javascript"></script>
+        <style>
+            header{
+                color:#ff0000;
+                font-size:40px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>Hola HTML5!</header>
+        <script type="text/javascript">
+            if (Modernizr.geolocation){
+                alert("Felicidades! Tu navegador no esta tan chafa, soporta Geolocalizacion!");         
+            }else{
+                alert("Tu calculadora no soporta Geolocalizacion :(");         
+            }
+        </script>
+    </body>
+</html>
